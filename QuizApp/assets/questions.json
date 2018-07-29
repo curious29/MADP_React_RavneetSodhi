@@ -1,0 +1,144 @@
+{
+    "questions": [
+        {
+            "code": "1",
+            "description": "World War I began in which year?",
+            "options": [
+                {
+                    "code": "1",
+                    "description": "1923",
+                    "point": -1
+                },
+                {
+                    "code": "2",
+                    "description": "1938",
+                    "point": -1
+                },
+                {
+                    "code": "3",
+                    "description": "1917",
+                    "point": 1
+                },
+                {
+                    "code": "4",
+                    "description": "1914",
+                    "point": -1
+                }
+            ],
+            "quiz_option_code": "1",
+            "quiz_answer": "The World War I began in 1914"
+        },
+        {
+            "code": "2",
+            "description": "The Magna Carta was published by the King of which country?",
+            "options": [
+                {
+                    "code": "1",
+                    "description": "France",
+                    "point": -1
+                },
+                {
+                    "code": "2",
+                    "description": "Austria",
+                    "point": -1
+                },
+                {
+                    "code": "3",
+                    "description": "Italy",
+                    "point": 1
+                },
+                {
+                    "code": "4",
+                    "description": "England",
+                    "point": -1
+                }
+            ],
+            "quiz_option_code": "2",
+            "quiz_answer": "The Magna Carta was published by the King of England"
+        },
+        {
+            "code": "3",
+            "description": "The first successful printing press was developed by ...",
+            "options": [
+                {
+                    "code": "1",
+                    "description": "Johannes Gutenburg",
+                    "point": -1
+                },
+                {
+                    "code": "2",
+                    "description": "Benjamin Franklin",
+                    "point": -1
+                },
+                {
+                    "code": "3",
+                    "description": "Sir Isaac Newton",
+                    "point": -1
+                },
+                {
+                    "code": "4",
+                    "description": "Martin Luther",
+                    "point": 1
+                }
+            ],
+            "quiz_option_code": "3",
+            "quiz_answer": "The first successful printing press was developed by Johannes Gutenburg"
+        },
+        {
+            "code": "4",
+            "description": "Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
+            "options": [
+                {
+                    "code": "1",
+                    "description": "Marcus Aurelius",
+                    "point": 1
+                },
+                {
+                    "code": "2",
+                    "description": "Hadrian",
+                    "point": -1
+                },
+                {
+                    "code": "3",
+                    "description": "Nero",
+                    "point": -1
+                },
+                {
+                    "code": "4",
+                    "description": "Augustus",
+                    "point": -1
+                }
+            ],
+            "quiz_option_code": "4",
+            "quiz_answer": "The Roman Emperor who built a massive wall across Northern Britain in 122 A.D. was Hadrian"
+        },
+        {
+            "code": "5",
+            "description": "Who was the first Western explorer to reach China?",
+            "options": [
+                {
+                    "code": "1",
+                    "description": "Magellan",
+                    "point": 1
+                },
+                {
+                    "code": "2",
+                    "description": "Cook",
+                    "point": -1
+                },
+                {
+                    "code": "3",
+                    "description": "Marco Polo",
+                    "point": -1
+                },
+                {
+                    "code": "4",
+                    "description": "Sir Francis Drake",
+                    "point": -1
+                }
+            ],
+            "quiz_option_code": "5",
+            "quiz_answer": "The first Western explorer to reach China was Marco Polo"
+        }
+    ]
+}
