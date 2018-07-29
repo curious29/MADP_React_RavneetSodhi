@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 import LoginScreen from './src/app/components/Login/LoginScreen';
 import DashboardScreen from './src/app/components/Dashboard/DashboardScreen';
 import QuizScreen from './src/app/components/Quiz/QuizScreen';
@@ -16,7 +16,7 @@ import {
   View
 } from 'react-native';
 
-const App = StackNavigator(
+const RootStack = createStackNavigator(
   {
     LoginScreen: { screen: LoginScreen },
     QuizScreen: { screen: QuizScreen },
@@ -27,4 +27,8 @@ const App = StackNavigator(
   }
 );
 
-export default App;
+export default class App {
+  render() {
+    return <RootStack />
+  }
+}
