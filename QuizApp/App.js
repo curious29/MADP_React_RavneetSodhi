@@ -9,13 +9,6 @@ import LoginScreen from './src/app/components/Login/LoginScreen';
 import DashboardScreen from './src/app/components/Dashboard/DashboardScreen';
 import QuizScreen from './src/app/components/Quiz/QuizScreen';
 
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-
 const RootStack = createStackNavigator(
   {
     LoginScreen: { screen: LoginScreen },
