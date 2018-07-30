@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default class DashboardScreen extends Component {
+export default class DashboardScreen extends React.Component {
     static navigationOptions = {
         title: 'Dashboard',
     };
@@ -13,8 +13,15 @@ export default class DashboardScreen extends Component {
     render() {
         return (
             <View>
-                <Text>Your score is {this.score}. Thanks for taking the quiz.</Text>
+                <Text style={styles.label}>Your score is {this.score}. Thanks for taking the quiz.</Text>
             </View>
         );
     }
 }
+
+const styles = StyleSheet.create({
+    label: {
+        fontSize: 30,
+        color: "#428bca"
+    }
+});

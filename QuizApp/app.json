@@ -1,4 +1,10 @@
 {
-  "name": "QuizApp",
-  "displayName": "QuizApp"
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "name": "MADP Assignment",
+    "android": {
+      "package": "com.johncy.myapp",
+      "versionCode": 1
+    }
+  }
 }

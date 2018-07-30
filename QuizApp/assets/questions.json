@@ -2,143 +2,133 @@
     "questions": [
         {
             "code": "1",
-            "description": "World War I began in which year?",
+            "description": "Data centre and Server room should have:",
             "options": [
                 {
                     "code": "1",
-                    "description": "1923",
+                    "description": "Independent air conditioning",
                     "point": -1
                 },
                 {
                     "code": "2",
-                    "description": "1938",
+                    "description": "Fire control system",
                     "point": -1
                 },
                 {
                     "code": "3",
-                    "description": "1917",
+                    "description": "Both a and b",
                     "point": 1
                 },
                 {
                     "code": "4",
-                    "description": "1914",
+                    "description": "None of the above",
                     "point": -1
                 }
-            ],
-            "quiz_option_code": "1",
-            "quiz_answer": "The World War I began in 1914"
+            ]
         },
         {
             "code": "2",
-            "description": "The Magna Carta was published by the King of which country?",
+            "description": "Maintenance of fire extinguishers is done:",
             "options": [
                 {
                     "code": "1",
-                    "description": "France",
+                    "description": "Annually",
                     "point": -1
                 },
                 {
                     "code": "2",
-                    "description": "Austria",
-                    "point": -1
-                },
-                {
-                    "code": "3",
-                    "description": "Italy",
+                    "description": "Weekly",
                     "point": 1
                 },
                 {
+                    "code": "3",
+                    "description": "Biannually",
+                    "point": -1
+                },
+                {
                     "code": "4",
-                    "description": "England",
+                    "description": "Quarterly",
                     "point": -1
                 }
-            ],
-            "quiz_option_code": "2",
-            "quiz_answer": "The Magna Carta was published by the King of England"
+            ]
         },
         {
             "code": "3",
-            "description": "The first successful printing press was developed by ...",
+            "description": "Fire extinguishers should be placed :",
             "options": [
                 {
                     "code": "1",
-                    "description": "Johannes Gutenburg",
+                    "description": "Around work stations",
                     "point": -1
                 },
                 {
                     "code": "2",
-                    "description": "Benjamin Franklin",
+                    "description": "Staircase",
                     "point": -1
                 },
                 {
                     "code": "3",
-                    "description": "Sir Isaac Newton",
+                    "description": "Enclosed areas",
                     "point": -1
                 },
                 {
                     "code": "4",
-                    "description": "Martin Luther",
+                    "description": "All of the above",
                     "point": 1
                 }
-            ],
-            "quiz_option_code": "3",
-            "quiz_answer": "The first successful printing press was developed by Johannes Gutenburg"
+            ]
         },
         {
             "code": "4",
-            "description": "Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
+            "description": "ERT stands for:",
             "options": [
                 {
                     "code": "1",
-                    "description": "Marcus Aurelius",
-                    "point": 1
+                    "description": "Energetic Team",
+                    "point": -1
                 },
                 {
                     "code": "2",
-                    "description": "Hadrian",
+                    "description": "Emerging Resource Team",
                     "point": -1
                 },
                 {
                     "code": "3",
-                    "description": "Nero",
-                    "point": -1
+                    "description": "Emergency Response Team",
+                    "point": 1
                 },
                 {
                     "code": "4",
-                    "description": "Augustus",
+                    "description": "None of the above",
                     "point": -1
                 }
-            ],
-            "quiz_option_code": "4",
-            "quiz_answer": "The Roman Emperor who built a massive wall across Northern Britain in 122 A.D. was Hadrian"
+            ]
         },
         {
             "code": "5",
-            "description": "Who was the first Western explorer to reach China?",
+            "description": "No Smoking’ signs are installed at :",
             "options": [
                 {
                     "code": "1",
-                    "description": "Magellan",
-                    "point": 1
+                    "description": "DG sets",
+                    "point": -1
                 },
                 {
                     "code": "2",
-                    "description": "Cook",
+                    "description": "UPS",
                     "point": -1
                 },
                 {
                     "code": "3",
-                    "description": "Marco Polo",
+                    "description": "Diesel storage drums",
                     "point": -1
                 },
                 {
                     "code": "4",
-                    "description": "Sir Francis Drake",
-                    "point": -1
+                    "description": "All of the above",
+                    "point": 1
                 }
-            ],
-            "quiz_option_code": "5",
-            "quiz_answer": "The first Western explorer to reach China was Marco Polo"
+            ]
         }
     ]
 }

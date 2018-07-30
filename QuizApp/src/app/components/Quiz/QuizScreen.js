@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Button, View, Text, FlatList } from 'react-native';
+import React from 'react';
+import { Button, View, Text, FlatList, StyleSheet } from 'react-native';
 import questoinList from '../../../../assets/questions.json';
 
-export default class QuizScreen extends Component {
+export default class QuizScreen extends React.Component {
     static navigationOptions = {
         title: 'QuizApp',
     };
@@ -68,7 +68,7 @@ export default class QuizScreen extends Component {
     _keyExtractor = (item, index) => item.code;
 
     _renderItem = ({ item }) => (
-        <Button
+        <Button style={styles.answerButton}
             title={item.description}
             onPress={() => {
                 item.isSelected = true;
@@ -83,7 +83,7 @@ export default class QuizScreen extends Component {
             <View>
                 {!this.state.completed ?
                     <View>
-                        <Text>{this.state.questions[this.state.index].description}</Text>
+                        <Text style={styles.label}>{this.state.questions[this.state.index].description}</Text>
                         <FlatList
                             data={this.state.questions[this.state.index].options}
                             keyExtractor={this._keyExtractor}
@@ -94,11 +94,25 @@ export default class QuizScreen extends Component {
                     </View>
                     :
                     <View>
-                        <Text>Submit to view your score</Text>
-                        <Button onPress={this.onSubmit.bind(this)} title="Submit"></Button>
+                        <Text style={styles.label}>Submit to view your score</Text>
+                        <Button style={styles.button} onPress={this.onSubmit.bind(this)} title="Submit"></Button>
                     </View>
                 }
             </View>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    answerButton: {
+        width: "50",
+        fontSize: 20
+    },
+    label: {
+        fontSize: 30,
+        color: "#428bca"
+    },
+    button: {
+        fontSize: 20
+    }
+});
